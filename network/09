@@ -1,0 +1,1 @@
+nslookup 42.fr | grep "Address" | sed 1d | cut -d " " -f2

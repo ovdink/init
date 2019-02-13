@@ -1,0 +1,2 @@
+ping 192.168.21.255 -c3
+arp -a | cut -d " " -f2 | cut -c 2- | rev | cut -c 2- | rev
