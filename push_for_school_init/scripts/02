@@ -1,0 +1,2 @@
+#pkill -u {username} - kill the process
+#userdel -rf {username}

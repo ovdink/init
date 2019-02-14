@@ -1,0 +1,2 @@
+#host 192.168.20.138 | cut -d " " -f5
+hostname

@@ -1,0 +1,6 @@
+read -p "commit your text: " commit
+git add *
+git status
+git commit -m $commit
+git push
+

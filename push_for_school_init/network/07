@@ -1,0 +1,1 @@
+nslookup slash16.org 8.8.8.8 | grep "Address:" | head -n1 | awk ' {print $2} '
